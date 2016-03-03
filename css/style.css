@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Tahoma;
+    src: url(../fonts/Tahoma.ttf);
+}
+body {
+    background: lightgray;
+}
+.page {
+    margin:40px auto 40px;
+    background: url(../img/background.png) no-repeat;
+    max-width: 960px;
+    width: 100%;
+    font-family: Tahoma, sans-serif;
+    box-shadow:
+    0 0 0 2px white,
+    0 0 0 3px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding: 57px 0 0 65px;
+    width: 266px;
+    height: 147px;
+    float: left;
+}
+
+span {
+    display: block;
+}
+
+.logo-palm {
+    background: url(../img/palm%20tree.png) no-repeat;
+    width: 125px;
+    height: 147px;
+    position: absolute;
+    margin-left: 145px;
+}
+
+.logo-title {
+    background: url(../img/logo.png) no-repeat;
+    width: 263px;
+    height: 37px;
+    margin-top: 75px;
+}
+
+.logo-slogan {
+    color: #e6e6e6;
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 400;
+    text-align: left;
+    padding: 8px 0 0 84px;
+    position: relative;
+    font-family: Tahoma, sans-serif;
+}
+
+.contacts {
+    float: right;
+    color: #e6e6e6;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 16px;
+    padding: 150px 80px 0 0;
+    font-family: Tahoma, sans-serif;
+}
+
+.contacts-title {
+    font-size: 11px;
+}
+
+.content {
+    padding: 5px 65px 0 65px;
+    display: inline-block;
+}
+
+.content li {
+    margin: 0 24px 50px 0;
+    float: left;
+
+}
+.content li p{
+    display: block;
+    color: #e6e6e6;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    margin-top: 4px;
+}
+li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.content li img {
+    border-radius: 0.5%;
+    box-shadow:
+    0 0 0 1px black,
+    0 0 0 4px grey,
+    0 0 0 5px black;
+}
+
+.content li img:hover {
+    background: white;
+    opacity: 0.7;
+}
+
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+footer {
+    display: block;
+
+}
+footer p{
+    padding: 129px 0 35px 385px;
+    font-family: Tahoma, sans-serif;
+    color: #e6e6e6;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: left;
+}
